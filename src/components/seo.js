@@ -17,7 +17,7 @@ const Seo = ({ description, lang, title, children }) => {
           siteMetadata {
             title
             description
-            social {
+            author {
               twitter
             }
           }
@@ -39,7 +39,7 @@ const Seo = ({ description, lang, title, children }) => {
       <meta name="twitter:card" content="summary" />
       <meta
         name="twitter:creator"
-        content={site.siteMetadata?.social?.twitter || ``}
+        content={site.siteMetadata?.author?.twitter || ``}
       />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={metaDescription} />
