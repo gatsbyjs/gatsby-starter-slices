@@ -8,7 +8,7 @@
   Gatsby's Blog Starter + Slices
 </h1>
 
-This starter is used as a simple demo site showing how to use the [Gatsby Slice API](https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-slice).
+This starter is used as a simple demo site showing how to use the [Gatsby Slice API](https://v5.gatsbyjs.com/docs/reference/built-in-components/gatsby-slice).
 
 Kick off your project with this blog boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
 
