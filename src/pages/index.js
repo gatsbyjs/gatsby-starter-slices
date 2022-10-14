@@ -1,10 +1,7 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
-
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-
-// TODO Delete bio from here, but it produces and error we should resolve
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -62,11 +59,6 @@ const BlogIndex = ({ data, location }) => {
 
 export default BlogIndex
 
-/**
- * Head export to define metadata for the page
- *
- * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
- */
 export const Head = () => <Seo title="All posts" />
 
 export const pageQuery = graphql`
@@ -76,7 +68,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(sort: { frontmatter: { date: DESC } }) {
       nodes {
         excerpt
         fields {

@@ -1,26 +1,21 @@
 {
   "name": "gatsby-starter-slices",
-  "private": true,
   "description": "A demo starter for a blog powered by Gatsby and Markdown, using Gatsby Slices",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
   "dependencies": {
-    "gatsby": "^5.0.0-next.0",
-    "gatsby-plugin-feed": "^4.23.0",
-    "gatsby-plugin-image": "^2.23.0",
-    "gatsby-plugin-manifest": "^4.23.0",
-    "gatsby-plugin-sharp": "^4.23.0",
-    "gatsby-remark-copy-linked-files": "^5.23.0",
-    "gatsby-remark-images": "^6.23.0",
-    "gatsby-remark-prismjs": "^6.23.0",
-    "gatsby-remark-responsive-iframe": "^5.23.0",
-    "gatsby-remark-smartypants": "^5.23.0",
-    "gatsby-source-filesystem": "^4.23.0",
-    "gatsby-transformer-remark": "^5.23.0",
-    "gatsby-transformer-sharp": "^4.23.0",
+    "gatsby": "next",
+    "gatsby-plugin-feed": "next",
+    "gatsby-plugin-image": "next",
+    "gatsby-plugin-manifest": "next",
+    "gatsby-plugin-sharp": "next",
+    "gatsby-remark-copy-linked-files": "next",
+    "gatsby-remark-images": "next",
+    "gatsby-remark-prismjs": "next",
+    "gatsby-remark-responsive-iframe": "next",
+    "gatsby-remark-smartypants": "next",
+    "gatsby-source-filesystem": "next",
+    "gatsby-transformer-remark": "next",
+    "gatsby-transformer-sharp": "next",
     "prismjs": "^1.29.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
@@ -30,15 +25,10 @@
   "devDependencies": {
     "prettier": "^2.7.1"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-slices#readme",
   "keywords": [
     "gatsby"
   ],
   "license": "0BSD",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-slices.git"
-  },
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
