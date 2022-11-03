@@ -11,7 +11,7 @@ It's part of Gatsby 5, visit the [Gatsby 5 Umbrella Discussion](https://github.c
     Use the Gatsby CLI ([install instructions](https://www.gatsbyjs.com/docs/tutorial/part-0/#gatsby-cli)) to create a new site, specifying the default starter.
 
     ```shell
-    gatsby new gatsby-starter-slices https://github.com/gatsbyjs/gatsby-partial-hydration-starter
+    gatsby new gatsby-starter-slices https://github.com/gatsbyjs/gatsby-starter-slices
     ```
 
 1.  **Start developing.**
